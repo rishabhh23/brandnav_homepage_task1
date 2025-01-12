@@ -4,6 +4,9 @@ import CTA from "./components/CTA";
 import Tools from "./components/Tools";
 import SocialProof from "./components/SocialProof";
 import DarkBanner from "./components/DarkBanner";
+import WhyUseHeading from "./components/WhyUseHeading";
+import WhyUseArea from "./components/WhyUseArea";
+
 export default function Home() {
   return (
     <div>
@@ -16,6 +19,10 @@ export default function Home() {
       </div>
       <div>
         <DarkBanner />
+      </div>
+      <div className="bg-[#F2F2FA]">
+        <WhyUseHeading />
+        <WhyUseArea />
       </div>
     </div>
   );
