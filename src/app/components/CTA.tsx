@@ -12,7 +12,7 @@ const CTA: React.FC = () => {
       </button>
 
       {/* subtext */}
-      <div className="flex items-center mt-4 text-gray-600 text-sm">
+      {/* <div className="flex items-center mt-4 text-gray-600 text-sm">
         <FaCreditCard className="mr-2" style={{ color: "#8A8A8A" }} />
         <span style={{ color: "#8A8A8A" }}>No credit card required</span>
         <span className="mx-2">|</span>
@@ -26,7 +26,7 @@ const CTA: React.FC = () => {
             4.8/5 G2 Rating
           </span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
