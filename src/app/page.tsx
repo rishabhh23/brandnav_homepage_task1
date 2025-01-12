@@ -6,6 +6,8 @@ import SocialProof from "./components/SocialProof";
 import DarkBanner from "./components/DarkBanner";
 import WhyUseHeading from "./components/WhyUseHeading";
 import WhyUseArea from "./components/WhyUseArea";
+import PinpointHeading from "./components/PinpointHeading";
+import PinpointArea from "./components/PinpointArea";
 
 export default function Home() {
   return (
@@ -23,6 +25,10 @@ export default function Home() {
       <div className="bg-[#F2F2FA]">
         <WhyUseHeading />
         <WhyUseArea />
+      </div>
+      <div className="bg-[#F2F2FA] text-[#2F327D]">
+        <PinpointHeading />
+        <PinpointArea />
       </div>
     </div>
   );
