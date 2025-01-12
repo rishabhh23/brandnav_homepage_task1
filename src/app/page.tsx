@@ -8,10 +8,14 @@ import WhyUseHeading from "./components/WhyUseHeading";
 import WhyUseArea from "./components/WhyUseArea";
 import PinpointHeading from "./components/PinpointHeading";
 import PinpointArea from "./components/PinpointArea";
+import DataAccuracyHeading from "./components/DataAccuracyHeading";
+import DataAccuracyArea from "./components/DataAccuracyArea";
+import UsingBrandNavHeading from "./components/UsingBrandNavHeading";
+import UsingBrandNavArea from "./components/UsingBrandNavArea";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#F2F2FA] text-[#2F327D]">
       <div className="min-h-screen bg-gradient-to-b from-[#F7FAFFCC] to-[#F2F2FA]">
         <Navbar />
         <HeroText />
@@ -22,13 +26,21 @@ export default function Home() {
       <div>
         <DarkBanner />
       </div>
-      <div className="bg-[#F2F2FA]">
+      <div>
         <WhyUseHeading />
         <WhyUseArea />
       </div>
-      <div className="bg-[#F2F2FA] text-[#2F327D]">
+      <div>
         <PinpointHeading />
         <PinpointArea />
+      </div>
+      <div>
+        <DataAccuracyHeading />
+        <DataAccuracyArea />
+      </div>
+      <div>
+        <UsingBrandNavHeading />
+        <UsingBrandNavArea />
       </div>
     </div>
   );

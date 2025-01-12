@@ -18,7 +18,7 @@ const PinpointArea: React.FC = () => {
       {/* screener attributes */}
       <div className="text-[#2F327D] text-center">
         <h2 className="text-2xl font-bold mb-6">Screener attributes</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mx-auto w-3/4 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="flex flex-col items-center">
             <Image src={screener1} alt="financials" />
             <p className="font-medium text-[#2F327D]">Financials</p>
@@ -36,7 +36,7 @@ const PinpointArea: React.FC = () => {
             <p className="font-medium text-[#2F327D]">Country code</p>
           </div>
         </div>
-        <div className="mt-5 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mx-auto w-3/4 mt-5 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="flex flex-col items-center">
             <Image src={screener5} alt="financials" />
             <p className="font-medium text-[#2F327D]">Employee count</p>
@@ -53,7 +53,7 @@ const PinpointArea: React.FC = () => {
       </div>
 
       {/* enricher attributes */}
-      <div className="text-[#2F327D] text-center mt-16">
+      <div className="mx-auto w-3/4 text-[#2F327D] text-center mt-16">
         <h2 className="text-2xl font-bold mb-6">Enricher attributes</h2>
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="flex flex-col items-center">

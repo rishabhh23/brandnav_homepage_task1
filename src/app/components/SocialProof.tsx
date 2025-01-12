@@ -11,7 +11,7 @@ const SocialProof: React.FC = () => {
           <span className="font-semibold">BrandNav</span>
         </h2>
 
-        <div className="flex flex-wrap items-center justify-center gap-8 text-[#666666]">
+        <div className="flex flex-wrap items-center justify-center gap-8 text-[#666666] mb-10">
           <Image src={companies} alt="companies" width={720} height={32} />
         </div>
       </div>
