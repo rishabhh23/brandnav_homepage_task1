@@ -17,13 +17,13 @@ const DarkBanner: React.FC = () => {
         <p className="text-5xl text-purple-900 font-bold text-center mt-2">
           $0
         </p>
-        <button className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded">
+        <button className="mt-6 ml-14 mx-auto w-2/3 bg-[#0084FF] hover:bg-blue-700 text-white font-medium py-2 rounded-lg">
           Grab free leads
         </button>
-        <p className="text-center p-4 text-sm text-gray-500 mt-3">
+        <p className="text-center mt-5 mb-5 p-2 text-sm text-gray-500">
           No credit card required | ⭐ 4.8/5 G2 Ratings
         </p>
-        <ul className="mt-6 space-y-2 text-gray-700">
+        <ul className="mt-6 ml-5 space-y-2 text-gray-700">
           <li className="flex items-start">
             <Image className="mr-2 mt-1" src={success} alt="success" />
             All BrandNav features included

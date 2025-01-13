@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
         <li className="relative group px-4 py-2 md:px-0 md:py-0">
           <a
             href="#"
-            className="flex items-center text-gray-800 hover:text-blue-500 transition"
+            className="flex items-center text-gray-800 hover:text-[#0085FF] transition"
           >
             Products
             <span className="ml-1">
@@ -69,22 +69,19 @@ const Navbar: React.FC = () => {
           </a>
         </li>
         <li className="px-4 py-2 md:px-0 md:py-0">
-          <a
-            href="#"
-            className="text-gray-800 hover:text-blue-500 font-medium transition"
-          >
+          <a href="#" className="text-gray-800 hover:text-[#0085FF] transition">
             Pricing
           </a>
         </li>
         <li className="px-4 py-2 md:px-0 md:py-0">
-          <a href="#" className="text-gray-800 hover:text-blue-500 transition">
+          <a href="#" className="text-gray-800 hover:text-[#0085FF] transition">
             Blogs
           </a>
         </li>
         <li className="relative group px-4 py-2 md:px-0 md:py-0">
           <a
             href="#"
-            className="flex items-center text-gray-800 hover:text-blue-500 transition"
+            className="flex items-center text-gray-800 hover:text-[#0085FF] transition"
           >
             Resources
             <span className="ml-1">
