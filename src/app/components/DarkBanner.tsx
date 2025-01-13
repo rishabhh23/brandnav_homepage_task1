@@ -6,7 +6,7 @@ import success from "../images/SUCCESS.png";
 
 const DarkBanner: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row min-h-screen w-full items-center justify-center bg-gradient-to-b from-[#2b076e] to-[#000236] p-6">
+    <div className="flex flex-col-reverse md:flex-row min-h-screen w-full items-center justify-center bg-gradient-to-b from-[#2b076e] to-[#000236] p-6">
       <div className="bg-white rounded-lg shadow-md max-w-sm w-full p-6">
         <div className="flex justify-center mb-4">
           <span className="text-4xl">🎁</span>
@@ -68,7 +68,7 @@ const DarkBanner: React.FC = () => {
           </p>
         </div>
         <div className="mt-8 md:mt-0 md:ml-12 text-center md:text-left">
-          <p className="m-2 text-white text-5xl font-semibold">
+          <p className="mb-10 text-white text-5xl font-semibold">
             before committing
           </p>
         </div>

@@ -10,7 +10,7 @@ import advancedsearch2 from "../images/32.png";
 const WhyUseArea: React.FC = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-between mr-10 ml-10 p-4 rounded-lg">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between mr-10 ml-10 p-4 rounded-lg">
         <div className="md:mt-0 flex-1 flex justify-center">
           <Image src={enrich1} alt="enrich1" />
         </div>
@@ -47,7 +47,7 @@ const WhyUseArea: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-between mr-10 ml-10 p-4 rounded-lg">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between mr-10 ml-10 p-4 rounded-lg">
         <div className="md:mt-0 flex-1 flex justify-center">
           <Image src={advancedsearch1} alt="enrich1" />
         </div>

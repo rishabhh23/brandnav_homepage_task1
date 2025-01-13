@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
   }, [menuOpen]);
 
   return (
-    <nav className="max-w-5xl w-full mx-auto flex justify-between items-center pt-5 pr-10 pl-10 pb-5">
+    <nav className="max-w-5xl mx-auto flex justify-between items-center pr-10 pl-10">
       {/* branding */}
       <div className="flex items-center">
         <Image
@@ -32,9 +32,9 @@ const Navbar: React.FC = () => {
           alt="BrandNav Logo"
           width={32}
           height={32}
-          className="mt-5 mr-2 bg-gray-50"
+          className="mt-4 mr-2 bg-gray-50"
         />
-        <span className="text-2xl mt-5 mr-10">BrandNav</span>
+        <span className="mt-4 text-2xl mr-10">BrandNav</span>
       </div>
 
       {/* hamburger menu */}
@@ -92,12 +92,14 @@ const Navbar: React.FC = () => {
             </span>
           </a>
         </li>
-        <button className="bg-white px-4 py-2 text-black border-2 border-blue-500 rounded-lg hover:bg-blue-100 transition w-full md:w-auto">
-          Login
-        </button>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-lg border-2 hover:bg-blue-600 transition w-full md:w-auto mt-2 md:mt-0">
-          Start for free
-        </button>
+        <div className="flex flex-row items-center mx-auto">
+          <button className="ml-10 bg-white px-4 py-2 text-black border-2 border-blue-500 rounded-lg hover:bg-blue-100 transition w-full md:w-auto">
+            Login
+          </button>
+          <button className="ml-5 bg-blue-500 text-white px-4 py-2 rounded-lg border-2 hover:bg-blue-600 transition w-full md:w-auto mt-2 md:mt-0">
+            Start for free
+          </button>
+        </div>
       </ul>
     </nav>
   );

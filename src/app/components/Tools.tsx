@@ -23,11 +23,6 @@ const Tools: React.FC = () => {
           <span className="mx-2">|</span>
           <div className="flex items-center">
             <Image className="mb-1" src={stars} alt={"Rating"} height={16} />
-            {/* <AiFillStar className="text-yellow-500" />
-            <AiFillStar className="text-yellow-500" />
-            <AiFillStar className="text-yellow-500" />
-            <AiFillStar className="text-yellow-500" />
-            <AiFillStar className="text-yellow-500" /> */}
             <span className="ml-2" style={{ color: "#8A8A8A" }}>
               4.8/5 G2 Rating
             </span>
@@ -36,9 +31,9 @@ const Tools: React.FC = () => {
       </div>
 
       {/* Main row: 4 Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 w-full overflow-hidden">
         {/* 1. Email verifier */}
-        <div className="bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg">
+        <div className="bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg overflow-hidden">
           <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-6 text-center">
             <h3 className="text-lg font-semibold text-gray-800">
               Email verifier
@@ -68,7 +63,7 @@ const Tools: React.FC = () => {
         </div>
 
         {/* 2. 14.5M+ ecom brands */}
-        <div className="my-auto bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg">
+        <div className="my-auto bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg overflow-hidden">
           <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-6 text-center">
             <Image
               src={tool2}
@@ -83,7 +78,7 @@ const Tools: React.FC = () => {
         </div>
 
         {/* 3. 100% deliverability */}
-        <div className="my-auto bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg">
+        <div className="my-auto bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg overflow-hidden">
           <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-6 text-center">
             <Image
               src={tool3}
@@ -98,7 +93,7 @@ const Tools: React.FC = () => {
         </div>
 
         {/* 4. Enricher lookup */}
-        <div className="bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg">
+        <div className="overflow-hidden bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg">
           <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-6">
             <h3 className="text-lg font-semibold text-gray-800">
               Enricher lookup
