@@ -14,6 +14,10 @@ import UsingBrandNavHeading from "./components/UsingBrandNavHeading";
 import UsingBrandNavArea from "./components/UsingBrandNavArea";
 import TestimonialHeading from "./components/TestimonialHeading";
 import TestimonialArea from "./components/TestimonialArea";
+import FAQHeading from "./components/FAQHeading";
+import FAQArea from "./components/FAQArea";
+import FooterBanner from "./components/FooterBanner";
+import FooterArea from "./components/FooterArea";
 
 export default function Home() {
   return (
@@ -47,6 +51,14 @@ export default function Home() {
       <div className="bg-[#E1F1FE]">
         <TestimonialHeading />
         <TestimonialArea />
+      </div>
+      <div>
+        <FAQHeading />
+        <FAQArea />
+      </div>
+      <div>
+        <FooterBanner />
+        <FooterArea />
       </div>
     </div>
   );

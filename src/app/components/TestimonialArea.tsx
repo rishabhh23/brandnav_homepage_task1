@@ -27,7 +27,7 @@ const TestimonialArea: React.FC = () => {
   ];
 
   return (
-    <div className="py-12">
+    <div className="pt-10 pb-20">
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         <div className="ml-5 mr-5 grid grid-cols-1 md:grid-cols-2 gap-6">
           {testimonials.map((testimonial, index) => (
