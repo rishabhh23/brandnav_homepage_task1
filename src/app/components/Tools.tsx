@@ -11,6 +11,7 @@ import { AiFillStar } from "react-icons/ai";
 import { BsMailbox } from "react-icons/bs";
 import { BiPhone } from "react-icons/bi";
 import { BiDotsHorizontal } from "react-icons/bi";
+import stars from "../images/4.8stars.png";
 
 const Tools: React.FC = () => {
   return (
@@ -22,11 +23,12 @@ const Tools: React.FC = () => {
           <span style={{ color: "#8A8A8A" }}>No credit card required</span>
           <span className="mx-2">|</span>
           <div className="flex items-center">
+            <Image className="mb-1" src={stars} alt={"Rating"} height={16} />
+            {/* <AiFillStar className="text-yellow-500" />
             <AiFillStar className="text-yellow-500" />
             <AiFillStar className="text-yellow-500" />
             <AiFillStar className="text-yellow-500" />
-            <AiFillStar className="text-yellow-500" />
-            <AiFillStar className="text-yellow-500" />
+            <AiFillStar className="text-yellow-500" /> */}
             <span className="ml-2" style={{ color: "#8A8A8A" }}>
               4.8/5 G2 Rating
             </span>

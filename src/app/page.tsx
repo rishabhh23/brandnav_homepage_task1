@@ -12,6 +12,8 @@ import DataAccuracyHeading from "./components/DataAccuracyHeading";
 import DataAccuracyArea from "./components/DataAccuracyArea";
 import UsingBrandNavHeading from "./components/UsingBrandNavHeading";
 import UsingBrandNavArea from "./components/UsingBrandNavArea";
+import TestimonialHeading from "./components/TestimonialHeading";
+import TestimonialArea from "./components/TestimonialArea";
 
 export default function Home() {
   return (
@@ -41,6 +43,10 @@ export default function Home() {
       <div>
         <UsingBrandNavHeading />
         <UsingBrandNavArea />
+      </div>
+      <div className="bg-[#E1F1FE]">
+        <TestimonialHeading />
+        <TestimonialArea />
       </div>
     </div>
   );
