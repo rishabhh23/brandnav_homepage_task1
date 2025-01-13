@@ -7,7 +7,6 @@ import profile1 from "../images/profile1.png";
 import profile2 from "../images/profile2.png";
 import profile3 from "../images/profile3.png";
 import { FaCreditCard } from "react-icons/fa";
-import { AiFillStar } from "react-icons/ai";
 import { BsMailbox } from "react-icons/bs";
 import { BiPhone } from "react-icons/bi";
 import { BiDotsHorizontal } from "react-icons/bi";
