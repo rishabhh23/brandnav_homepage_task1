@@ -31,21 +31,21 @@ const Tools: React.FC = () => {
       </div>
 
       {/* Main row: 4 Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 w-full overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 w-full overflow-hidden">
         {/* 1. Email verifier */}
         <div className="bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg overflow-hidden">
-          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-6 text-center">
-            <h3 className="text-lg font-semibold text-gray-800">
+          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-4 text-center">
+            <h3 className="text-md font-semibold text-[#0D2052]">
               Email verifier
             </h3>
             <Image
               src={tool1}
               alt="Email Verifier Chart"
-              className="mx-auto my-4"
-              width={200}
-              height={100}
+              className="mx-auto my-3"
+              width={160}
+              height={80}
             />
-            <div className="flex justify-center mt-4 space-x-4 text-sm">
+            <div className="flex justify-center mt-10 space-x-3 text-md">
               <span className="flex items-center text-gray-500">
                 <span className="w-2 h-2 rounded-full bg-green-500 mr-1"></span>
                 Valid
@@ -64,143 +64,176 @@ const Tools: React.FC = () => {
 
         {/* 2. 14.5M+ ecom brands */}
         <div className="my-auto bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg overflow-hidden">
-          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-6 text-center">
+          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-4 text-center">
             <Image
               src={tool2}
               alt="Ecom Brands Icon"
-              className="mx-auto my-4"
-              width={600}
-              height={600}
+              className="mx-auto my-3"
+              width={500}
+              height={500}
             />
-            <p className="mt-5 text-5xl text-blue-500">14.5M+</p>
-            <p className="mt-5 text-sm text-gray-600">ecom brands</p>
+            <p className="mt-3 text-4xl text-blue-500">14.5M+</p>
+            <p className="mt-3 text-xs text-gray-600">ecom brands</p>
           </div>
         </div>
 
         {/* 3. 100% deliverability */}
         <div className="my-auto bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg overflow-hidden">
-          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-6 text-center">
+          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-4 text-center">
             <Image
               src={tool3}
               alt="Deliverability Icon"
-              className="mx-auto my-4"
-              width={500}
-              height={300}
+              className="mx-auto my-3"
+              width={400}
+              height={240}
             />
-            <p className="mt-5 text-5xl text-blue-500">100%</p>
-            <p className="mt-5 text-sm text-gray-600">deliverability</p>
+            <p className="mt-3 text-4xl text-blue-500">100%</p>
+            <p className="mt-3 text-xs text-gray-600">deliverability</p>
           </div>
         </div>
 
         {/* 4. Enricher lookup */}
         <div className="overflow-hidden bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 rounded-lg">
-          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-gray-800">
+          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-lg p-4">
+            <h3 className="text-md font-semibold text-[#0D2052]">
               Enricher lookup
             </h3>
-            <div className="mt-4">
-              {/* 1. Profile */}
-              <div className="flex items-center mb-4">
+            <div className="mt-3">
+              {/* profile 1 */}
+              <div className="flex items-center mb-3">
                 <Image
                   src={profile1}
-                  alt="Alexandria Wayt"
-                  className="w-10 h-10 rounded-full"
+                  alt="Profile 1"
+                  className="w-8 h-8 rounded-full"
                 />
-                <div className="ml-4">
-                  <p className="text-sm font-semibold text-gray-800">
-                    Alexandria Wayt{" "}
-                    <span className="bg-green-100 rounded-full p-1 text-green-500 font-medium text-xs">
-                      Verified
-                    </span>
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    Senior product manager
-                  </p>
+                <div className="ml-3 flex items-center w-full">
+                  <div className="flex flex-col">
+                    <p className="text-sm font-semibold text-gray-800">
+                      Alexandria Wayt
+                    </p>
+                    <p className="text-xs text-gray-600">
+                      Senior product manager
+                    </p>
+                  </div>
+                  <span className="bg-green-100 rounded-full p-1 text-green-500 font-medium text-xs ml-auto">
+                    Verified
+                  </span>
                 </div>
               </div>
-              <div className="flex items-center gap-2 mb-4">
-                {/* Email Button */}
+              {/* Buttons */}
+              <div className="flex items-center gap-2">
                 <button
                   type="button"
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200"
+                  className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200"
                 >
-                  <BsMailbox className="h-5 w-5 text-gray-500" />
+                  <BsMailbox className="h-4 w-4 text-gray-500" />
                 </button>
 
-                {/* Phone Button */}
                 <button
                   type="button"
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200"
+                  className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200"
                 >
-                  <BiPhone className="h-5 w-5 text-gray-500" />
+                  <BiPhone className="h-4 w-4 text-gray-500" />
                 </button>
 
-                {/* More Options Button */}
                 <button
                   type="button"
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200"
+                  className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 ml-auto"
                 >
-                  <BiDotsHorizontal className="h-5 w-5 text-gray-500" />
+                  <BiDotsHorizontal className="h-4 w-4 text-gray-500" />
                 </button>
               </div>
-              {/* 2. Profile */}
-              <div className="flex items-center mb-4">
+            </div>
+
+            <div className="mt-3">
+              {/* profile 2 */}
+              <div className="flex items-center mb-3">
                 <Image
                   src={profile2}
-                  alt="Michael Taylor"
-                  className="w-10 h-10 rounded-full"
+                  alt="Profile 2"
+                  className="w-8 h-8 rounded-full"
                 />
-                <div className="ml-4">
-                  <p className="text-sm font-semibold text-gray-800">
-                    Michael Taylor{" "}
-                    <span className="bg-green-100 rounded-full p-1 text-green-500 font-medium text-xs">
-                      Verified
-                    </span>
-                  </p>
-                  <p className="text-sm text-gray-600">Sales executive</p>
+                <div className="ml-3 flex items-center w-full">
+                  <div className="flex flex-col">
+                    <p className="text-sm font-semibold text-gray-800">
+                      Michael Taylor
+                    </p>
+                    <p className="text-xs text-gray-600">Sales Executive</p>
+                  </div>
+                  <span className="bg-green-100 rounded-full p-1 text-green-500 font-medium text-xs ml-auto">
+                    Verified
+                  </span>
                 </div>
               </div>
-              <div className="flex items-center gap-2 mb-4">
-                {/* Email Button */}
+              {/* Buttons */}
+              <div className="flex items-center gap-2">
                 <button
                   type="button"
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200"
+                  className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200"
                 >
-                  <BsMailbox className="h-5 w-5 text-gray-500" />
+                  <BsMailbox className="h-4 w-4 text-gray-500" />
                 </button>
 
-                {/* Phone Button */}
                 <button
                   type="button"
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200"
+                  className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200"
                 >
-                  <BiPhone className="h-5 w-5 text-gray-500" />
+                  <BiPhone className="h-4 w-4 text-gray-500" />
                 </button>
 
-                {/* More Options Button */}
                 <button
                   type="button"
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200"
+                  className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 ml-auto"
                 >
-                  <BiDotsHorizontal className="h-5 w-5 text-gray-500" />
+                  <BiDotsHorizontal className="h-4 w-4 text-gray-500" />
                 </button>
               </div>
-              {/* 3. Profile */}
-              <div className="flex items-center">
+            </div>
+
+            <div className="mt-3">
+              {/* profile 3 */}
+              <div className="flex items-center mb-3">
                 <Image
                   src={profile3}
-                  alt="Murphy Hamilton"
-                  className="w-10 h-10 rounded-full"
+                  alt="Profile 3"
+                  className="w-8 h-8 rounded-full"
                 />
-                <div className="ml-4">
-                  <p className="text-sm font-semibold text-gray-800">
-                    Murphy Hamilton{" "}
-                    <span className="bg-green-100 rounded-full p-1 text-green-500 font-medium text-xs">
-                      Verified
-                    </span>
-                  </p>
-                  <p className="text-sm text-gray-600">Product manager</p>
+                <div className="ml-3 flex items-center w-full">
+                  <div className="flex flex-col">
+                    <p className="text-sm font-semibold text-gray-800">
+                      Murphy Hamilton
+                    </p>
+                    <p className="text-xs text-gray-600">
+                      Senior product manager
+                    </p>
+                  </div>
+                  <span className="bg-green-100 rounded-full p-1 text-green-500 font-medium text-xs ml-auto">
+                    Verified
+                  </span>
                 </div>
+              </div>
+              {/* Buttons */}
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200"
+                >
+                  <BsMailbox className="h-4 w-4 text-gray-500" />
+                </button>
+
+                <button
+                  type="button"
+                  className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200"
+                >
+                  <BiPhone className="h-4 w-4 text-gray-500" />
+                </button>
+
+                <button
+                  type="button"
+                  className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 ml-auto"
+                >
+                  <BiDotsHorizontal className="h-4 w-4 text-gray-500" />
+                </button>
               </div>
             </div>
           </div>
