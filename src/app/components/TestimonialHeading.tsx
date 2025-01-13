@@ -7,7 +7,7 @@ const TestimonialHeading: React.FC = () => {
     <section className="flex flex-col w-full pt-8">
       <div className="container mx-auto text-center">
         <h1 className="mt-10 text-4xl font-bold">
-          Don't just take our word for it
+          Don&apos;t just take our word for it
         </h1>
       </div>
       <div className="p-5 font-semibold flex mx-auto items-center text-[#595B97]">
