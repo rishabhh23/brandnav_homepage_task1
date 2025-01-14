@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
   }, [menuOpen]);
 
   return (
-    <nav className="max-w-7xl mx-auto pl-20 pr-20 flex justify-between items-center pb-4 pt-4">
+    <nav className="max-w-7xl mx-auto pl-5 pr-5 flex justify-between items-center pb-4 pt-4">
       {/* branding and navigation links */}
       <div className="flex items-center space-x-10">
         {/* Branding */}
