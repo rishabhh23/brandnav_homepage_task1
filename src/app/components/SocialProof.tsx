@@ -4,7 +4,7 @@ import companies from "../images/companies.png";
 
 const SocialProof: React.FC = () => {
   return (
-    <section className="w-full py-8">
+    <section className="w-full py-10 my-10">
       <div className="container mx-auto text-center">
         <h2 className="mb-6 text-lg text-[#666666]">
           Modern companies are using{" "}

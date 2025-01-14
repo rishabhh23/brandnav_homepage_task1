@@ -2,7 +2,7 @@
 
 const HeroText: React.FC = () => {
   return (
-    <div className="p-5 flex items-center justify-center">
+    <div className="p-2 flex items-center justify-center">
       <div className="text-center">
         <h1
           className="m-2 font-bold text-4xl sm:text-5xl"
@@ -16,7 +16,10 @@ const HeroText: React.FC = () => {
         >
           your Business
         </h1>
-        <p className="mt-5 text-lg sm:text-xl" style={{ color: "#666666" }}>
+        <p
+          className="mt-5 mb-5 text-lg sm:text-xl"
+          style={{ color: "#666666" }}
+        >
           Turbocharge your business growth. <br />
           Our products help ignite sales and entrepreneurship.
         </p>
