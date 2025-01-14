@@ -104,7 +104,7 @@ const Tools: React.FC = () => {
 
         {/* 3. Enricher lookup */}
         <div className="col-span-1 overflow-hidden bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] p-1 mb-5 rounded-2xl shadow-lg ml-2">
-          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-2xl p-2">
+          <div className="h-full border-2 border-gray bg-gradient-to-b from-[#FCFCFC] to-[#FAF5FF] rounded-2xl p-4">
             <h3 className="text-lg font-semibold text-[#0D2052]">
               Enricher lookup
             </h3>
